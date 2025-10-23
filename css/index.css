@@ -11,9 +11,6 @@ header{
     background-color: #0F4C75;
     color: white;
 }
-header .btn{
-    background-color: #3282b8;
-}
 .container{
     display: flex;
     justify-content: space-between;
@@ -76,6 +73,9 @@ header .btn{
 .btn{
     background-color: #0F4C75;
     color: white;
+}
+.links .btn{
+    background-color: #3282b8;
 }
 .shopping{
     margin: 0 20px;
@@ -144,6 +144,9 @@ main{
     text-align: center;
     background-color: #3282b8;
     color: azure;
+}
+ .cart.btn{
+    background-color: #0F4C75;
 }
 .decrease,.increase{
     width: 20px;
