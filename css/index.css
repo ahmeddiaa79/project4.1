@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: capitalize;
 }
 body{
     background-color:#1B262C;
+    text-transform: capitalize;
 }
 header{
     background-color: #0F4C75;
@@ -26,6 +26,10 @@ header{
     display: flex;
     align-items: center;
 }
+.logo a{
+    text-decoration: none;
+    color: white;
+}
 .content{
     display: none;
 }
@@ -41,6 +45,7 @@ header{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0px 10px #BBE1FA;
+    text-transform: none;
 }
 .names{
     display: flex;
