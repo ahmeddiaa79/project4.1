@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 body{
     background-color:#1B262C;
@@ -58,6 +59,7 @@ header{
     width: 100%;
     padding:5px 15px;
     border-radius: 10px;
+    border: none;
 }
 .form1 .btn{
     margin: 20px 0;

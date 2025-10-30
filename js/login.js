@@ -25,3 +25,6 @@ login.addEventListener("click", function (e) {
         },1500)
     }
 })
+
+  console.log(-3)
+
