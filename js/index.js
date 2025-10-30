@@ -220,9 +220,10 @@ function increaseandderease() {
         })
     })
 }
-var heart = document.querySelectorAll(".heart")
+// var heart = document.querySelectorAll(".heart")
 var selectedwishlist
 function addtowishlist() {
+    var heart = document.querySelectorAll(".heart")
     heart.forEach((love) => {
         love.addEventListener("click", function () {
             if (!localStorage.getItem("firstname")) {
@@ -305,5 +306,6 @@ if (searchMode && searchinput) {
             result = products.filter((item) => item.catigory.toLowerCase().includes(input))
         }
         drowproduct(result)
+        addtowishlist()
     })
 }
